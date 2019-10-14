@@ -1,0 +1,31 @@
+Compile : 
+
+javac Main.java
+
+Run : 
+
+java Main <filename> <balance>
+
+e.g.
+
+java Main products.txt 899
+
+
+Execution Example : 
+
+
+C:\Users\X220\Desktop\Temp\GiftCard>javac Main.java
+
+C:\Users\X220\Desktop\Temp\GiftCard>java Main
+Input Error!
+
+Please include products.txt File and Balance!
+
+C:\Users\X220\Desktop\Temp\GiftCard>java Main products.txt 2500
+Detergent 400 , CandyBar 500
+
+C:\Users\X220\Desktop\Temp\GiftCard>java Main products.txt 900
+Detergent 400 , CandyBar 500
+
+C:\Users\X220\Desktop\Temp\GiftCard>java Main products.txt 899
+Not possible
